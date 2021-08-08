@@ -1,0 +1,14 @@
+.admin-button{
+    padding: 10px 15px;
+    background: linear-gradient(118deg, #ff5722, rgba(255, 87, 34, .7)) !important;
+    color:#fff;
+}
+.admin-input{
+    color:#fff;
+    background: linear-gradient(118deg, #ff5722, rgba(255, 87, 34, .7)) !important;
+}
+
+.admin-shop{
+    display: flex;
+}
+

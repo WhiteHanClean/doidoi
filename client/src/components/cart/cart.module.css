@@ -1,0 +1,81 @@
+.productsList{
+    display: grid;
+    grid-template-columns: 1fr;
+    column-gap: 1rem;
+    row-gap: 1rem;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.productsListItemLink{
+    text-decoration: none;
+    cursor: pointer;
+    color: inherit;
+}
+
+.productCard{
+    display: grid;
+    grid-template-columns: 100px 1fr 1fr 1fr 1fr 30px;
+    column-gap: 1rem;
+    align-items:center;
+}
+
+.productCard img {
+    width: 100%;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    border-radius:25px;
+}
+
+.productTitle {
+    font-size: 20px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.productPrice {
+    font-size: 25px;
+}
+
+.productBtn {
+    cursor: pointer;
+    border-radius: 10px;
+    margin-top: 20px;
+    width: 135px;
+    height: 44px;
+    border: 1px solid #ff5722;
+    color: #fff;
+    background: linear-gradient(118deg, #ff5722, rgba(255, 87, 34, .7)) !important;
+}
+.cartBtn{
+    cursor: pointer;
+    width: 15px;
+    margin-right: 5px;
+    margin-left: 5px;
+    border: 1px solid #ff5722;
+    color: #fff;
+    background: linear-gradient(118deg, #ff5722, rgba(255, 87, 34, .7)) !important;
+}
+.deleteBtn{
+    cursor: pointer;
+    width: 20px;
+    margin-right: 5px;
+    margin-left: 5px;
+    border: 1px solid #ff5722;
+    color: #fff;
+    background: linear-gradient(118deg, #ff5722, rgba(255, 87, 34, .7)) !important;
+}
+
+@media screen and (max-width: 1000px){
+    .productsList{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (max-width: 750px){
+    .productsList{
+        grid-template-columns: 1fr;
+    }
+}
+

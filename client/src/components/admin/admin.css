@@ -1,0 +1,29 @@
+.buttons {
+    padding-left: 17px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+.panel {
+    display: flex;
+    justify-content: center;
+}
+.admin{
+    margin-bottom: 10px;
+    border-radius: 100px;
+    object-fit: cover;
+}
+
+.button_lookBook {
+    padding: 10px 15px;
+    margin-right: 10px;
+    border-radius:10px;
+    background: linear-gradient(118deg, #ff5722, rgba(255, 87, 34, .7)) !important;
+}
+.button_shop {
+    padding: 10px 15px;
+    margin-left: 10px;
+    border-radius:10px;
+    background: linear-gradient(118deg, #ff5722, rgba(255, 87, 34, .7)) !important;
+}

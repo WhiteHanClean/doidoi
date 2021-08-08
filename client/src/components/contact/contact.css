@@ -1,0 +1,40 @@
+.footer_content {
+    font-size: 13px;
+
+}
+
+.hr {
+    width: 100%;
+    background: linear-gradient(118deg, #ff5722, rgba(255, 87, 34, .7)) !important;
+    height: 3px;
+    margin: 20px 0;
+}
+
+.flex {
+
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.second_contacts_descr {
+    margin-left: -19px;
+}
+
+.second_contacts_descr {
+    padding-left: 15px;
+}
+
+@media all and (max-width: 1340px) {
+    .flex {
+        display: block;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+
+    }
+
+    .mt10 {
+        margin-top: 10px;
+    }
+}
